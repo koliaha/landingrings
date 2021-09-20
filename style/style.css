@@ -18,6 +18,8 @@ body {
 
 .sectionHeight {
     height: 896px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -54,6 +56,8 @@ body {
 
 .logo img {
     margin: 0 auto;
+    max-width: 252px;
+    width: 100%;
 }
 
 .contentBox {

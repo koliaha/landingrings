@@ -1,0 +1,96 @@
+@media screen and (max-width: 400px) {
+    .logo {
+        margin-top: 50px;
+    }
+
+    .sectionHeight {
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .submargin {
+        margin-bottom: 35px;
+    }
+
+    .sectionHeight {
+        height: 795px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .submargin {
+        margin-bottom: 30px;
+    }
+
+    .sectionHeight {
+        height: 690px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .mainSubtitle {
+        margin-bottom: 17px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .logo {
+        margin-top: 12px;
+    }
+
+    .subtitle {
+        font-size: 21px;
+        line-height: 20px;
+    }
+
+    .secondSubtitle {
+        font-size: 19.54px;
+        line-height: 26px;
+    }
+
+    .link_btn {
+        padding: 14px 0;
+    }
+
+    .contentBox {
+        bottom: 110px;
+        padding: 0 10px;
+    }
+
+    .slick-dots {
+        bottom: 48px !important;
+    }
+
+    .sectionHeight {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .sectionHeight {
+        height: 510px;
+    }
+
+    .mainSubMargin {
+        margin-top: 30px;
+    }
+
+    .slick-dots {
+        bottom: 19px !important;
+    }
+
+    .contentBox {
+        bottom: 60px;
+        padding: 0 10px;
+    }.link_btn {
+        padding: 8px 0;
+        font-size: 11px;
+    }.mainSubtitle {
+        font-size: 9px;
+        line-height: 13px;
+    }
+}
