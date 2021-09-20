@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Avenir Next Cyr';
+}
+
+.container {
+    max-width: 414px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.sectionHeight {
+    height: 896px;
+}
+
+.wrapper {
+    padding: 22px 0;
+    position: relative;
+    height: 100%;
+}
+
+.first_sec {
+    background-image: url('../img/bg1.jpg');
+}
+
+.second_sec {
+    background-image: url('../img/bg2.jpg');
+}
+
+.third_sec {
+    background-image: url('../img/bg3.jpg');
+}
+
+.fouth_sec {
+    background-image: url('../img/bg4.jpg');
+}
+
+.fifth_sec {
+    background-image: url('../img/bg5.jpg');
+}
+
+.logo {
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    margin: 0 auto;
+}
+
+.contentBox {
+    position: absolute;
+    bottom: 80px;
+    text-align: center;
+    width: 100%;
+    padding: 0 22px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+}
+
+.secondSubtitle {
+    font-weight: 450;
+    font-size: 23.54px;
+    line-height: 29px;
+}
+
+.mainSubMargin {
+    margin-top: 72px;
+}
+
+.submargin {
+    margin-bottom: 69px;
+}
+
+.mainTitle {
+    margin-bottom: 13px;
+    font-weight: 450;
+    font-size: 23.54px;
+    line-height: 29px;
+}
+
+.mainSubtitle {
+    margin-bottom: 51px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.link_btn {
+    font-family: 'Avenir Next Cyr';
+    background: none;
+    border: 2px solid #1F325C;
+    cursor: pointer;
+    width: 100%;
+    padding: 22px 0;
+    text-align: center;
+    border-radius: 40px;
+    transition: 0.4s ease;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.27em;
+    text-transform: uppercase;
+}
+
+.link_btn:hover {
+    background: #21335C;
+    color: white;
+}
+
+/* dots */
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+    padding: 1rem 0;
+    list-style-type: none;
+}
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+.slick-dots button {
+    display: block;
+    border: none;
+    background-color: rgb(255, 255, 255) !important;
+    text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+    background-color: #21335C !important;
+}
