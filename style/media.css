@@ -41,7 +41,9 @@
     .logo {
         margin-top: 12px;
     }
-
+    .logo img {
+        max-width: 180px;
+    }
     .subtitle {
         font-size: 21px;
         line-height: 20px;
@@ -57,12 +59,12 @@
     }
 
     .contentBox {
-        bottom: 110px;
+        bottom: 55px;
         padding: 0 10px;
     }
 
     .slick-dots {
-        bottom: 48px !important;
+        bottom: 15px !important;
     }
 
     .sectionHeight {
