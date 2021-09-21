@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <meta name="ad.size" content="width=100%,height=100%">
+    <!-- <link rel="stylesheet" href="./fonts/stylesheet.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/media.css">
 
@@ -15,106 +22,142 @@
     <script type="text/javascript" src="./slick/jquery-migrate-1.2.1.min.js"></script>
     <link rel='icon' href="./favicon.ico">
     <title>Alrosa</title>
+    
 </head>
 
 <body>
-    <div class="container single-item">
-        <div class="first_sec sectionHeight">
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="logo">
-                </div>
-                <div class="subtitle mainSubMargin">
-                    <span>Знаете ли вы, что</span>
-                </div>
-                <div class="contentBox">
-                    <div class="subtitle submargin">
-                        <span>из 10 000 алмазов <br /><span class="secondSubtitle"> в природе встречается<br /></span>
-                            только 1 цветной?</span>
+    <div id="Stage">
+        <div class="container single-item">
+            <div class="first_sec sectionHeight">
+                <div class="wrapper">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo">
                     </div>
-                    <a href="#"  x-apple-data-detectors="true">
-                        <button class="link_btn">КОЛЛЕКЦИЯ FANCY</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="second_sec sectionHeight">
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="logo">
-                </div>
-                <div class="contentBox">
-                    <h2 class="mainTitle">Серьги</h2>
-                    <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
-                    <a href="#"  x-apple-data-detectors="true">
-                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="third_sec sectionHeight">
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="logo">
-                </div>
-                <div class="contentBox">
-                    <h2 class="mainTitle">Кольцо</h2>
-                    <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
-                    <a href="#"  x-apple-data-detectors="true">
-                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="fouth_sec sectionHeight">
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="logo">
-                </div>
-                <div class="contentBox">
-                    <h2 class="mainTitle">Кольцо</h2>
-                    <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
-                    <a href="#"  x-apple-data-detectors="true">
-                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="fifth_sec sectionHeight">
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="logo">
-                </div>
-                <div class="contentBox">
-                    <h2 class="mainTitle">Кольцо</h2>
-                    <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
-                    <a href="#"  x-apple-data-detectors="true">
-                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        $(document).ready(function () {
-            $('.single-item').slick({
-                dots: true,
-                responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        centerMode: false,
-                        /* set centerMode to false to show complete slide instead of 3 */
-                        slidesToScroll: 1
-                    }
-                }],
-                prevArrow: '<i class="slide-arrow prev-arrow"></i>',
-                nextArrow: '<i class="slide-arrow next-arrow"></i>'
-            });
-        });
-    </script>
-    <script type="text/javascript" src="./slick/slick.js"></script>
+                    <div class="subtitle mainSubMargin">
+                        <span>Знаете ли вы, что</span>
+                    </div>
+                    <div class="contentBox">
+                        <div class="subtitle submargin">
+                            <span>из 10 000 алмазов <br /><span class="secondSubtitle"> в природе
+                                    встречается<br /></span>
+                                только 1 цветной?</span>
+                        </div>
 
+                        <button class="link_btn">КОЛЛЕКЦИЯ FANCY</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="second_sec sectionHeight">
+                <div class="wrapper">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </div>
+                    <div class="contentBox">
+                        <h2 class="mainTitle">Серьги</h2>
+                        <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
+
+                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="third_sec sectionHeight">
+                <div class="wrapper">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </div>
+                    <div class="contentBox">
+                        <h2 class="mainTitle">Кольцо</h2>
+                        <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
+
+                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="fouth_sec sectionHeight">
+                <div class="wrapper">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </div>
+                    <div class="contentBox">
+                        <h2 class="mainTitle">Кольцо</h2>
+                        <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
+
+                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="fifth_sec sectionHeight">
+                <div class="wrapper">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo">
+                    </div>
+                    <div class="contentBox">
+                        <h2 class="mainTitle">Кольцо</h2>
+                        <p class="mainSubtitle">КОЛЛЕКЦИЯ УКРАШЕНИЙ<br /> С ЖЕЛТЫМИ БРИЛЛИАНТАМИ<br /> FANCY</p>
+
+                        <button class="link_btn">ВЫБРАТЬ УКРАШЕНИЕ</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./slick/slick.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.single-item').slick({
+                    dots: true,
+                    responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            centerMode: false,
+                            slidesToScroll: 1
+                        }
+                    }],
+                    prevArrow: '<i class="slide-arrow prev-arrow"></i>',
+                    nextArrow: '<i class="slide-arrow next-arrow"></i>'
+                });
+            });
+
+            function getUrlParameter(name) {
+                name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+                var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+                var results = regex.exec(location.search);
+                return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+            }
+
+            function myclick() {
+                var clickTag = getUrlParameter("url");
+                document.location = clickTag;
+            }
+            document.querySelectorAll('.link_btn').forEach((el) => {
+                el.addEventListener('click', () => {
+                    const url = getUrlParameter("url");
+                    window.open(url, '_blank');
+                    myclick();
+                });
+            })
+        </script>
+        <script>
+            function getUrlParameter(name) {
+                name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+                var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+                var results = regex.exec(location.search);
+                return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+            }
+            function myclick() {
+                var clickTag = getUrlParameter("url");
+                window.open(clickTag, '_blank');
+            }
+        </script>
+        <script type="text/javascript">
+            var clickTag = getUrlParameter('url');
+        </script>
+    </div>
 </body>
 
 </html>
