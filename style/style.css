@@ -57,7 +57,7 @@ a:visited {
 }
 
 .logo {
-    margin-top: 95px;
+    margin-top: 68px;
     display: flex;
     justify-content: center;
 }
@@ -73,25 +73,25 @@ a:visited {
     bottom: 80px;
     text-align: center;
     width: 100%;
-    padding: 0 22px;
+    padding: 0 70px;
     margin: 0 auto;
 }
 
 .subtitle {
     text-align: center;
     font-weight: normal;
-    font-size: 35px;
-    line-height: 43px;
+    font-size: 50px;
+    line-height: 57px;
 }
 
 .secondSubtitle {
     font-weight: 450;
-    font-size: 23.54px;
+    font-size: 35.54px;
     line-height: 29px;
 }
 
 .mainSubMargin {
-    margin-top: 72px;
+    margin-top: 62px;
 }
 
 .submargin {
@@ -101,15 +101,15 @@ a:visited {
 .mainTitle {
     margin-bottom: 13px;
     font-weight: 450;
-    font-size: 23.54px;
-    line-height: 29px;
+    font-size: 41px;
+    line-height: 41px;
 }
 
 .mainSubtitle {
     margin-bottom: 51px;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 25px;
+    line-height: 30px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }

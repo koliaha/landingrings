@@ -1,82 +1,130 @@
+/* 
 @media screen and (max-width: 400px) {
-    .logo {
-        margin-top: 50px;
+    .first_sec {
+        background-image: url('../img/bg1.png');
     }
-
-    .sectionHeight {
-        /* height: 850px; */
+    
+    .second_sec {
+        background-image: url('../img/bg2.png');
+    }
+    
+    .third_sec {
+        background-image: url('../img/bg3.png');
+    }
+    
+    .fouth_sec {
+        background-image: url('../img/bg4.png');
+    }
+    
+    .fifth_sec {
+        background-image: url('../img/bg5.png');
+    }
+} */
+@media screen and (max-width: 605px) {
+    .subtitle {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .secondSubtitle {
+        font-size: 31.54px;
+        line-height: 33px;
+    }
+    .mainSubtitle {
+        font-size: 19px;
+        line-height: 23px;
     }
 }
-
+@media screen and (max-width: 410px) {
+    .subtitle {
+        font-size: 29px;
+        line-height: 33px;
+    }.secondSubtitle {
+        font-size: 23.54px;
+        line-height: 33px;
+    }.mainSubtitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
 @media screen and (max-width: 385px) {
+    .logo {
+        margin-top: 35px;
+    }
+    .logo img {
+        max-width: 227px;
+    }
     .submargin {
         margin-bottom: 35px;
     }
-
-    .sectionHeight {
-        /* height: 795px; */
+    .contentBox {
+        padding: 0 20px;
     }
-}
-
-@media screen and (max-width: 365px) {
-    .submargin {
-        margin-bottom: 30px;
+    .mainSubtitle {
+        font-size: 14px;
+        line-height: 16px;
     }
-
-    .sectionHeight {
-        /* height: 690px; */
+    .secondSubtitle {
+        font-size: 23.54px;
+        line-height: 29px;
     }
-
+    .mainTitle {
+        font-size: 23.54px;
+        line-height: 29px;
+    }
+    .link_btn{
+        padding: 17px 0;
+    }
     .subtitle {
         font-size: 25px;
         line-height: 29px;
     }
-
-    .mainSubtitle {
-        margin-bottom: 17px;
-    }
 }
 
+
 @media screen and (max-width: 325px) {
-    .logo {
-        margin-top: 12px;
+    .submargin {
+        margin-bottom: 15px;
     }
-    .logo img {
-        max-width: 180px;
+    .link_btn {
+        padding: 11px 0;
+    }
+    .mainSubMargin {
+        margin-top: 29px;
+    }
+    .contentBox {
+        bottom: 59px;
     }
     .subtitle {
         font-size: 21px;
-        line-height: 20px;
+        line-height: 21px;
     }
-
     .secondSubtitle {
-        font-size: 19.54px;
-        line-height: 26px;
+        font-size: 21.54px;
+        line-height: 23px;
     }
-
-    .link_btn {
-        padding: 14px 0;
+    .mainSubtitle {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 8px;
     }
-
-    .contentBox {
-        bottom: 55px;
-        padding: 0 10px;
+    .mainTitle {
+        margin-bottom: 5px;
     }
-
     .slick-dots {
-        bottom: 15px !important;
+        bottom: 10px !important;
     }
-
-    .sectionHeight {
-        /* height: 600px; */
+    .slick-dots li, .slick-dots li button{
+        width: 17px !important;
     }
 }
 
-@media screen and (max-width: 285px) {
-    .sectionHeight {
-        /* height: 510px; */
+@media screen and (max-width: 255px) {
+    .logo {
+        margin-top: 10px;
     }
-
+    .logo img {
+        max-width: 170px;
+    }
     .mainSubMargin {
         margin-top: 30px;
     }
@@ -84,7 +132,13 @@
     .slick-dots {
         bottom: 19px !important;
     }
-
+    .subtitle {
+        font-size: 16px;
+        line-height: 16px;
+    }.secondSubtitle {
+        font-size: 17.54px;
+        line-height: 17px;
+    }
     .contentBox {
         bottom: 60px;
         padding: 0 10px;
