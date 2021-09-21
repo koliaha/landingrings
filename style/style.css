@@ -24,7 +24,7 @@ a[x-apple-data-detectors] {
 }
 
 .container {
-    max-width: 768px;
+    max-width: 868px;
     width: 100%;
     margin: auto;
     overflow: visible;
@@ -35,7 +35,8 @@ a[x-apple-data-detectors] {
 .sectionHeight {
     /* max-height: 896px; */
     height: 100vh;
-    background-size: auto 100%;
+    /* background-size:  auto 100vh; */
+    background-size:  cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -173,8 +174,8 @@ a[x-apple-data-detectors] {
 
 .slide-arrow {
     position: absolute;
-    /* top: 50%; */
-    bottom: 10px;
+    top: 50%;
+    /* bottom: 10px; */
     cursor: pointer;
     display: block;
     margin: 30px auto;
@@ -196,7 +197,7 @@ a[x-apple-data-detectors] {
     transform: rotate(135deg);
 }
 
-.prev-arrow::after,
+/* .prev-arrow::after,
 .next-arrow::after {
     content: "";
     display: block;
@@ -213,4 +214,4 @@ a[x-apple-data-detectors] {
 
 .next-arrow::after {
     right: 0;
-}
+} */
