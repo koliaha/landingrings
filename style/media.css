@@ -20,7 +20,7 @@
         background-image: url('../img/bg5.png');
     }
 } */
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 830px) {
     .subtitle {
         font-size: 38px;
         line-height: 38px;
@@ -46,7 +46,7 @@
         line-height: 19px;
     }
 } */
-@media screen and (max-width: 595px) {
+@media screen and (max-width: 830px) {
     .logo {
         margin-top: 35px;
     }
