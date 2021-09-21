@@ -34,7 +34,7 @@
         line-height: 23px;
     }
 }
-@media screen and (max-width: 410px) {
+/* @media screen and (max-width: 410px) {
     .subtitle {
         font-size: 29px;
         line-height: 33px;
@@ -45,8 +45,8 @@
         font-size: 14px;
         line-height: 19px;
     }
-}
-@media screen and (max-width: 385px) {
+} */
+@media screen and (max-width: 595px) {
     .logo {
         margin-top: 35px;
     }
