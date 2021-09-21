@@ -4,7 +4,7 @@
     }
 
     .sectionHeight {
-        height: 850px;
+        /* height: 850px; */
     }
 }
 
@@ -14,7 +14,7 @@
     }
 
     .sectionHeight {
-        height: 795px;
+        /* height: 795px; */
     }
 }
 
@@ -24,7 +24,7 @@
     }
 
     .sectionHeight {
-        height: 690px;
+        /* height: 690px; */
     }
 
     .subtitle {
@@ -68,13 +68,13 @@
     }
 
     .sectionHeight {
-        height: 600px;
+        /* height: 600px; */
     }
 }
 
 @media screen and (max-width: 285px) {
     .sectionHeight {
-        height: 510px;
+        /* height: 510px; */
     }
 
     .mainSubMargin {

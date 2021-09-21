@@ -17,9 +17,11 @@ body {
 
 
 .sectionHeight {
-    height: 896px;
-    background-size: 100% auto;
+    max-height: 896px;
+    height: 100vh;
+    background-size:  100% auto;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .wrapper {
