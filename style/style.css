@@ -8,8 +8,13 @@ body {
     font-family: 'Avenir Next Cyr';
 }
 
+a:link,
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
 .container {
-    max-width: 414px;
+    max-width: 768px;
     width: 100%;
     margin: auto;
     overflow: visible;
@@ -18,9 +23,9 @@ body {
 
 
 .sectionHeight {
-    max-height: 896px;
+    /* max-height: 896px; */
     height: 100vh;
-    background-size: 100% auto;
+    background-size:  auto 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -32,23 +37,23 @@ body {
 }
 
 .first_sec {
-    background-image: url('../img/bg1.jpg');
+    background-image: url('../img/bgbig1.png');
 }
 
 .second_sec {
-    background-image: url('../img/bg2.jpg');
+    background-image: url('../img/bgbig2.png');
 }
 
 .third_sec {
-    background-image: url('../img/bg3.jpg');
+    background-image: url('../img/bgbig3.png');
 }
 
 .fouth_sec {
-    background-image: url('../img/bg4.jpg');
+    background-image: url('../img/bgbig4.png');
 }
 
 .fifth_sec {
-    background-image: url('../img/bg5.jpg');
+    background-image: url('../img/bgbig5.png');
 }
 
 .logo {
@@ -157,24 +162,44 @@ body {
 
 .slide-arrow {
     position: absolute;
-    top: 50%;
-    margin-top: -15px;
-    z-index: 10;
-    border: solid rgba(0, 0, 0, 0.3);
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 7px;
+    /* top: 50%; */
+    bottom: 10px;
     cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #A8B1C7;
+    border-left: 1px solid #A8B1C7;
+    z-index: 10;
+    opacity: 0.7;
 }
 
 .prev-arrow {
-    left: 10px;
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
+    left: 17px;
+    transform: rotate(-45deg);
 }
 
 .next-arrow {
-    right: 10px;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
+    right: 17px;
+    transform: rotate(135deg);
+}
+
+.prev-arrow::after,
+.next-arrow::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 55px;
+    background-color: #A8B1C7;
+    border-radius:3px;
+    transform: rotate(-45deg) translate(19px, 7px);
+}
+
+.prev-arrow::after {
+    left: 0;
+}
+
+.next-arrow::after {
+    right: 0;
 }
