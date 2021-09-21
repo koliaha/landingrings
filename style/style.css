@@ -8,8 +8,9 @@ body {
     font-family: 'Avenir Next Cyr';
 }
 
-a:link,
-a:visited {
+a::link,
+a::visited {
+    text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
@@ -138,6 +139,7 @@ a[x-apple-data-detectors] {
     line-height: 17px;
     letter-spacing: 0.27em;
     text-transform: uppercase;
+    color: black;
 }
 
 .link_btn:hover {
