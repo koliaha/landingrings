@@ -1,42 +1,50 @@
-
-
 @media screen and (max-width: 830px) {
     .logo {
         margin-top: 35px;
     }
+
     .logo img {
         max-width: 227px;
     }
+
     .submargin {
         margin-bottom: 20px;
     }
+
     .contentBox {
         padding: 0 20px;
-        bottom:155px;
+        bottom: 155px;
     }
+
     .mainSubtitle {
         font-size: 14px;
         line-height: 16px;
         margin-bottom: 10px;
     }
+
     .secondSubtitle {
         font-size: 23.54px;
         line-height: 29px;
     }
+
     .mainTitle {
         font-size: 23.54px;
         line-height: 29px;
     }
-    .link_btn{
+
+    .link_btn {
         padding: 17px 0;
     }
+
     .subtitle {
         font-size: 25px;
         line-height: 29px;
     }
-    .slick-dots{
-        bottom:130px !important;
-    } 
+
+    .slick-dots {
+        bottom: 130px !important;
+    }
+
     .mainSubMargin {
         margin-top: 100px;
     }
@@ -82,9 +90,11 @@
     .logo {
         margin-top: 10px;
     }
+
     .logo img {
         max-width: 170px;
     }
+
     .mainSubMargin {
         margin-top: 30px;
     }
@@ -92,82 +102,100 @@
     .slick-dots {
         bottom: 19px !important;
     }
+
     .subtitle {
         font-size: 16px;
         line-height: 16px;
-    }.secondSubtitle {
-        font-size: 17.54px;
-        line-height: 17px;
     }
+
     .contentBox {
         bottom: 60px;
         padding: 0 10px;
-    }.link_btn {
+    }
+
+    .link_btn {
         padding: 8px 0;
         font-size: 11px;
-    }.mainSubtitle {
+    }
+
+    .mainSubtitle {
         font-size: 9px;
         line-height: 13px;
     }
 }
-@media screen and (max-height:730px) {
+
+/* @media screen and (max-height:730px) {
     .subtitle {
         font-size: 26px;
         line-height: 25px;
-    }.secondSubtitle {
-        font-size: 23.54px;
-        line-height: 31px;
     }
-}
+} */
+
 @media screen and (max-height:610px) {
     .logo {
         margin-top: 0px;
     }
+
     .contentBox {
         bottom: 47px;
     }
 }
+
 @media screen and (max-height:510px) {
     .mainSubMargin {
         margin-top: 15px;
-    }.link_btn{
+    }
+
+    .link_btn {
         padding: 5px;
     }
+
     .contentBox {
         bottom: 47px;
         padding: 0px 100px;
     }
 
 }
+
 @media screen and (max-height:400px) {
     .logo img {
         max-width: 148px;
     }
+
     .subtitle {
         font-size: 18px;
         line-height: 12px;
     }
+
     .submargin {
         margin-bottom: 9px;
-    }.secondSubtitle {
+    }
+
+    /* .secondSubtitle {
         font-size: 17.54px;
         line-height: 21px;
-    }.contentBox {
+    } */
+
+    .contentBox {
         bottom: 25px;
     }
-    .link_btn{
+
+    .link_btn {
         width: 250px;
         font-size: 11px;
-    line-height: 13px;
+        line-height: 13px;
     }
-    .slick-dots{
-        bottom:7px !important; 
+
+    .slick-dots {
+        bottom: 7px !important;
     }
+
     .mainSubtitle {
         margin-bottom: 10px;
         font-size: 12px;
         line-height: 12px;
     }
+
     .mainTitle {
         font-size: 30px;
         line-height: 28px;
