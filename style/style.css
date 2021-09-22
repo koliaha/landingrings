@@ -72,7 +72,7 @@ body {
 
 .contentBox {
     position: absolute;
-    bottom: 80px;
+    bottom: 60px;
     text-align: center;
     width: 100%;
     padding: 0 70px;
@@ -108,10 +108,10 @@ body {
 }
 
 .mainSubtitle {
-    margin-bottom: 30px;
+    margin-bottom: 22px;
     font-weight: 500;
-    font-size: 23px;
-    line-height: 29px;
+    font-size: 21px;
+    line-height: 27px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }
