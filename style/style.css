@@ -3,21 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     height: -webkit-fill-available;
-  }
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color:#ecf1f3;
-    height: calc(var(--vh, 1vh) * 100);
-    overflow: hidden
 }
 
-.banner{
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf1f3;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    /* overflow: hidden */
+}
+
+.banner {
     width: 100%;
     height: 100%;
     position: relative;
 }
+
 .container {
     max-width: 768px;
     width: 100%;
@@ -26,17 +30,18 @@ body {
     position: relative;
 }
 
-.bannerBox{
+.bannerBox {
     position: absolute;
-    bottom:0;
+    bottom: 0;
 }
 
 .sectionHeight {
+    /* position: absolute; */
+    position: relative;
     height: 100vh;
-    /* height: 100%; */
-
+    width: 100%;
     min-height: -webkit-fill-available;
-    background-size:  cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -94,7 +99,7 @@ body {
     text-align: center;
     font-weight: normal;
     font-size: 40px;
-    line-height:40px;
+    line-height: 40px;
 }
 
 .secondSubtitle {
