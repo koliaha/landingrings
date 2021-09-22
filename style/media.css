@@ -164,6 +164,11 @@
     }.contentBox {
         bottom: 25px;
     }
+    .link_btn{
+        width: 250px;
+        font-size: 11px;
+    line-height: 13px;
+    }
     .slick-dots{
         bottom:7px !important; 
     }
