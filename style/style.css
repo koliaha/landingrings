@@ -13,7 +13,8 @@ body {
     background-color: #ecf1f3;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-    /* overflow: hidden */
+    overflow: hidden;
+    position: relative;
 }
 
 .banner {
@@ -27,7 +28,7 @@ body {
     width: 100%;
     height: 100%;
     margin: auto;
-    position: relative;
+    position: fixed;
 }
 
 .bannerBox {
@@ -87,12 +88,14 @@ body {
 }
 
 .contentBox {
+    width: 100%;
+    z-index: 10;
     position: absolute;
     bottom: 60px;
     text-align: center;
-    width: 100%;
     padding: 0 70px;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .subtitle {
