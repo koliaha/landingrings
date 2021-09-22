@@ -131,17 +131,6 @@
     }
 }
 
-@media screen and (max-height:730px) {
-    .subtitle {
-        font-size: 26px;
-        line-height: 25px;
-    }
-
-    .secondSubtitle {
-        font-size: 23.54px;
-        line-height: 31px;
-    }
-}
 
 @media screen and (max-height:610px) {
     .logo {
