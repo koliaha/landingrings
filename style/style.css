@@ -100,7 +100,7 @@ body {
 }
 .secslider{
     position: absolute;
-    bottom:40px;
+    bottom:30px;
     width: 100%;
 }
 .contentBox2{
@@ -134,17 +134,17 @@ body {
 }
 
 .mainTitle {
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     font-weight: 450;
     font-size: 41px;
     line-height: 41px;
 }
 
 .mainSubtitle {
-    margin-bottom: 22px;
+    margin-bottom: 15px;
     font-weight: 500;
-    font-size: 21px;
-    line-height: 27px;
+    font-size: 18px;
+    line-height: 17px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }

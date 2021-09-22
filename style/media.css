@@ -6,9 +6,11 @@
     .logo img {
         max-width: 227px;
     }
+
     .submargin {
         margin-bottom: 20px;
     }
+
     .contentBox {
         padding: 0 20px;
     }
@@ -24,8 +26,8 @@
     }
 
     .mainTitle {
-        font-size: 23.54px;
-        line-height: 29px;
+        font-size: 20.54px;
+        line-height: 20px;
     }
 
     .link_btn {
@@ -100,7 +102,7 @@
     }
 
     .slick-dots {
-        bottom: 19px !important;
+        bottom: 12px !important;
     }
 
     .subtitle {
@@ -149,9 +151,22 @@
     .contentBox {
         bottom: 47px;
     }
+    .mainSubtitle {
+        margin-bottom: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .mainTitle {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .secslider {
+        bottom: 27px;
+    }
 }
 
-@media screen and (max-height:510px) {
+@media screen and (max-height:530px) {
     .mainSubMargin {
         margin-top: 15px;
     }
@@ -164,10 +179,10 @@
         bottom: 47px;
         padding: 0px 100px;
     }
-
+  
 }
 
-@media screen and (max-height:400px) {
+@media screen and (max-height:425px) {
     .logo img {
         max-width: 148px;
     }
@@ -200,14 +215,5 @@
         bottom: 7px !important;
     }
 
-    .mainSubtitle {
-        margin-bottom: 10px;
-        font-size: 12px;
-        line-height: 12px;
-    }
-
-    .mainTitle {
-        font-size: 30px;
-        line-height: 28px;
-    }
+    
 }
