@@ -27,10 +27,12 @@
     }
     .contentBox {
         padding: 0 20px;
+        bottom:140px;
     }
     .mainSubtitle {
         font-size: 14px;
         line-height: 16px;
+        margin-bottom: 10px;
     }
     .secondSubtitle {
         font-size: 23.54px;
@@ -47,6 +49,12 @@
         font-size: 25px;
         line-height: 29px;
     }
+    .slick-dots{
+        bottom:115px !important;
+    } 
+    .mainSubMargin {
+        margin-top: 100px;
+    }
 }
 
 
@@ -60,9 +68,9 @@
     .mainSubMargin {
         margin-top: 29px;
     }
-    .contentBox {
+    /* .contentBox {
         bottom: 59px;
-    }
+    } */
     .subtitle {
         font-size: 21px;
         line-height: 21px;

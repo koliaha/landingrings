@@ -9,22 +9,32 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color:#ecf1f3;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden
 }
 
-
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 .container {
     max-width: 768px;
     width: 100%;
+    height: 100%;
     margin: auto;
-    overflow: hidden;
+    position: relative;
 }
 
-
+.bannerBox{
+    position: absolute;
+    bottom:0;
+}
 
 .sectionHeight {
     height: 100vh;
+    /* height: 100%; */
+
     min-height: -webkit-fill-available;
     background-size:  cover;
     background-repeat: no-repeat;
@@ -35,6 +45,7 @@ body {
     padding: 22px 0;
     position: relative;
     height: 100%;
+    width: 100%;
     min-height: -webkit-fill-available;
 }
 
