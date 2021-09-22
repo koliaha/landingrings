@@ -1,19 +1,4 @@
-@media screen and (max-width: 830px) {
-    .subtitle {
-        font-size: 38px;
-        line-height: 38px;
-    }
 
-    .secondSubtitle {
-        font-size: 31.54px;
-        line-height: 33px;
-    }
-
-    .mainSubtitle {
-        font-size: 19px;
-        line-height: 23px;
-    }
-}
 
 @media screen and (max-width: 830px) {
     .logo {
@@ -58,7 +43,7 @@
 }
 
 
-@media screen and (max-width: 325px) {
+/* @media screen and (max-width: 325px) {
     .submargin {
         margin-bottom: 15px;
     }
@@ -103,7 +88,7 @@
     .slick-dots li button {
         width: 17px !important;
     }
-}
+} */
 
 @media screen and (max-width: 255px) {
     .logo {
@@ -148,17 +133,6 @@
     }
 }
 
-@media screen and (max-height:730px) {
-    .subtitle {
-        font-size: 26px;
-        line-height: 25px;
-    }
-
-    .secondSubtitle {
-        font-size: 23.54px;
-        line-height: 31px;
-    }
-}
 
 @media screen and (max-height:610px) {
     .logo {
