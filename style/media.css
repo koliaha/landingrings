@@ -38,101 +38,44 @@
         font-size: 25px;
         line-height: 29px;
     }
+    .secslider {
+        bottom: 35px;
+    }
 }
 
 
-/* @media screen and (max-width: 325px) {
+
+@media screen and (max-width: 455px) {
+    .submargin {
+        margin-bottom: 10px;
+    }
+    .secslider {
+        bottom: 35px;
+    }
+    .link_btn{
+        font-size: 13px;
+        padding: 13px 0;
+        line-height: 13px;
+    }
+    .subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .secondSubtitle {
+        font-size: 20.54px;
+        line-height: 22px;
+    }
+    .slick-dots li button, .slick-dots li button:before, .slick-dots li{
+        width: 40px !important;
+    }
+}
+@media screen and (max-width:376px) {
     .submargin {
         margin-bottom: 15px;
     }
-
-    .link_btn {
-        padding: 11px 0;
-    }
-
-    .mainSubMargin {
-        margin-top: 29px;
-    }
-
-    .contentBox {
-        bottom: 59px;
-    }
-
-    .subtitle {
-        font-size: 21px;
-        line-height: 21px;
-    }
-
-    .secondSubtitle {
-        font-size: 21.54px;
-        line-height: 23px;
-    }
-
-    .mainSubtitle {
-        font-size: 12px;
-        line-height: 15px;
-        margin-bottom: 8px;
-    }
-
-    .mainTitle {
-        margin-bottom: 5px;
-    }
-
-    .slick-dots {
-        bottom: 10px !important;
-    }
-
-    .slick-dots li,
-    .slick-dots li button {
-        width: 17px !important;
-    }
-} */
-
-@media screen and (max-width: 255px) {
-    .logo {
-        margin-top: 10px;
-    }
-
-    .logo img {
-        max-width: 170px;
-    }
-
-    .mainSubMargin {
-        margin-top: 30px;
-    }
-
-    .slick-dots {
-        bottom: 12px !important;
-    }
-
-    .subtitle {
-        font-size: 16px;
-        line-height: 16px;
-    }
-
-    .secondSubtitle {
-        font-size: 17.54px;
-        line-height: 17px;
-    }
-
-    .contentBox {
-        bottom: 60px;
-        padding: 0 10px;
-    }
-
-    .link_btn {
-        padding: 8px 0;
-        font-size: 11px;
-    }
-
-    .mainSubtitle {
-        font-size: 9px;
-        line-height: 13px;
-    }
 }
 
-
-@media screen and (max-height:610px) {
+/* @media screen and (max-height:610px) {
     .logo {
         margin-top: 0px;
     }
@@ -153,7 +96,7 @@
     .secslider {
         bottom: 27px;
     }
-}
+} */
 
 @media screen and (max-height:530px) {
     .mainSubMargin {
