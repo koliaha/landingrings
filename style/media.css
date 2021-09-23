@@ -68,10 +68,22 @@
     .slick-dots li button, .slick-dots li button:before, .slick-dots li{
         width: 40px !important;
     }
+    
 }
 @media screen and (max-width:376px) {
     .submargin {
         margin-bottom: 15px;
+    }
+    .mainSubtitle {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 10px;
+    }
+    .secslider {
+        bottom: 19px;
+    }
+    .slick-dots {
+        bottom: 7px !important;
     }
 }
 
