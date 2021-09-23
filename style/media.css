@@ -46,6 +46,12 @@
 
 
 @media screen and (max-width: 455px) {
+    .logo {
+        margin-top: 28px;
+    }
+    .logo img {
+        max-width: 200px;
+    }
     .submargin {
         margin-bottom: 10px;
     }
@@ -80,35 +86,13 @@
         margin-bottom: 10px;
     }
     .secslider {
-        bottom: 19px;
+        bottom: 24px;
     }
     .slick-dots {
         bottom: 7px !important;
     }
 }
 
-/* @media screen and (max-height:610px) {
-    .logo {
-        margin-top: 0px;
-    }
-
-    .contentBox {
-        bottom: 47px;
-    }
-    .mainSubtitle {
-        margin-bottom: 10px;
-        font-size: 10px;
-        line-height: 12px;
-    }
-
-    .mainTitle {
-        font-size: 20px;
-        line-height: 20px;
-    }
-    .secslider {
-        bottom: 27px;
-    }
-} */
 
 @media screen and (max-height:530px) {
     .mainSubMargin {
@@ -133,7 +117,7 @@
 
     .subtitle {
         font-size: 18px;
-        line-height: 12px;
+        line-height: 18px;
     }
 
     .submargin {
