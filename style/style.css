@@ -77,7 +77,10 @@ body {
 }
 
 .logo {
-    margin-top: 68px;
+    position: absolute;
+    top: 68px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
 }
@@ -125,7 +128,10 @@ body {
 }
 
 .mainSubMargin {
-    margin-top: 62px;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translateX(-50%);
 }
 
 .submargin {
