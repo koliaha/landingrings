@@ -1,6 +1,6 @@
 @media screen and (max-width: 830px) {
     .logo {
-        margin-top: 35px;
+       top: 35px;
     }
 
     .logo img {
@@ -16,8 +16,8 @@
     }
 
     .mainSubtitle {
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 15.5px;
+        line-height: 17px;
     }
 
     .secondSubtitle {
@@ -35,7 +35,7 @@
     }
 
     .subtitle {
-        font-size: 25px;
+        font-size: 29px;
         line-height: 29px;
     }
     .secslider {
@@ -47,13 +47,13 @@
 
 @media screen and (max-width: 455px) {
     .logo {
-        margin-top: 28px;
+        /* top: 28px; */
     }
     .logo img {
         max-width: 200px;
     }
-    .submargin {
-        margin-bottom: 10px;
+    .mainSubMargin {
+        top: 27%;
     }
     .secslider {
         bottom: 35px;
@@ -64,7 +64,7 @@
         line-height: 13px;
     }
     .subtitle {
-        font-size: 20px;
+        font-size: 23px;
         line-height: 24px;
     }
     .secondSubtitle {
@@ -78,7 +78,7 @@
 }
 @media screen and (max-width:376px) {
     .submargin {
-        margin-bottom: 15px;
+        top: 120px;
     }
     .mainSubtitle {
         font-size: 12px;
@@ -95,10 +95,6 @@
 
 
 @media screen and (max-height:530px) {
-    .mainSubMargin {
-        margin-top: 15px;
-    }
-
     .link_btn {
         padding: 5px;
     }
